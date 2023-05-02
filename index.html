@@ -6,14 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
-		<script src="app.js"></script>
+		<script defer src="app.js"></script>
 	</head>
 	<body>
 		<header class="header">
 			<box class="headerBox"> WHO AM I? </box>
 			<img src="./img/myimage.jpg" width="300px" height="300px" />
 		</header>
-		<main></main>
+		<box class="buttonBox"
+			><button class="button1" onclick="showContent1()">자기소개</button>
+			<button class="button2" onclick="showContent2()">기술스택</button></box
+		>
+		<main class="main">
+			<box class="content1">출생년도 : 2000년 10월 26일</box>
+			<box class="content2" hidden>기술스택</box>
+		</main>
 		<footer></footer>
 	</body>
 </html>
