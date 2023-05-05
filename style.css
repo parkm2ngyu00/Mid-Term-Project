@@ -44,3 +44,20 @@ button {
 .videoBox {
     margin-top : 10px;
 }
+
+.githubLink {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    animation-name: updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes updown {
+    from { top: 0px; }
+    to { top: 20px; }
+}
